@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexImplementation", "RegexImplementation\RegexImplementation.csproj", "{D9CD623B-6806-4268-866D-9A51A27B38BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9CD623B-6806-4268-866D-9A51A27B38BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CD623B-6806-4268-866D-9A51A27B38BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CD623B-6806-4268-866D-9A51A27B38BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CD623B-6806-4268-866D-9A51A27B38BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE0F17C-797D-4D09-90A6-4FC4A9A1559D}
+	EndGlobalSection
+EndGlobal

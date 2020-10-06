@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.exe
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.deps.json
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.runtimeconfig.json
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.dll
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\bin\Debug\netcoreapp3.1\RegexImplementation.pdb
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.dll
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.pdb
+C:\Users\Administrator\source\repos\RegexImplementation\RegexImplementation\obj\Debug\netcoreapp3.1\RegexImplementation.genruntimeconfig.cache
