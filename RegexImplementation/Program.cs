@@ -53,8 +53,8 @@ namespace RegexImplementation
         {
 
 
-            // string pattern = "^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
-            string pattern = "(^[a-zA-Z0-9]{3,}@[a-zA-Z0-9]{1,}$)";
+          
+            string pattern = "(^[a-zA-Z0-9]{3,}@[a-zA-Z0-9]{1,}.[a-zA-Z]{2,}$)";
 
             Regex re = new Regex(pattern);
             if (re.IsMatch(emailId))
