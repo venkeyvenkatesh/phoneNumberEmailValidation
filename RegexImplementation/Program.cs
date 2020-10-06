@@ -19,19 +19,20 @@ namespace RegexImplementation
                 }
                 Console.WriteLine("Valide one");
 
-            Console.WriteLine("Enter your Email-Id");
+          
+                Console.WriteLine("Enter your Email-Id");
 
-            string emailId = Console.ReadLine();
-
-
-            while (!(validateEmailId(emailId)))
-            {
-                Console.WriteLine("Please enter valid Email Id ");
-                emailId = Console.ReadLine();
-            }
-            Console.WriteLine("Valid one");
+                string emailId = Console.ReadLine();
 
 
+                while (!(validateEmailId(emailId)))
+                {
+                    Console.WriteLine("Please enter valid Email Id ");
+                    emailId = Console.ReadLine();
+                }
+                Console.WriteLine("Valid one");
+
+            
 
         }
         public static bool validatePinCode(string pinCode)
@@ -53,7 +54,7 @@ namespace RegexImplementation
 
 
             // string pattern = "^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
-            string pattern = "(^[a-zA-Z0-9]{3,}$)";
+            string pattern = "(^[a-zA-Z0-9]{3,}@[a-zA-Z0-9]{1,}$)";
 
             Regex re = new Regex(pattern);
             if (re.IsMatch(emailId))
