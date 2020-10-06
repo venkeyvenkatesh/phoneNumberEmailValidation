@@ -7,23 +7,24 @@ namespace RegexImplementation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ENter a pincode number");
+            
+                Console.WriteLine("ENter a pincode number");
 
             string pinCode = Console.ReadLine();
+          
+                while (!(validatePinCode(pinCode)))
+                {
+                    Console.WriteLine("Please enter valid pin code");
+                    pinCode = Console.ReadLine();
+                }
+                Console.WriteLine("Valide one");
 
-            while(!(validatePinCode(pinCode)))
-            {
-                Console.WriteLine("Please enter valid pin code");
-                pinCode = Console.ReadLine();
-            }
-            Console.WriteLine("Valide one");
-
-           
+            
 
         }
         public static bool validatePinCode(string pinCode)
         {
-            string pattern = @"(^[1-9]{1}[0-9]{5}$)";
+            string pattern = @"(^[1-9]{1}[0-9]{2}[ ]{0,1}[0-9]{3}$)";
             Regex re = new Regex(pattern);
             if (re.IsMatch(pinCode))
             {
