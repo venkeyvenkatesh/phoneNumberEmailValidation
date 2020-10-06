@@ -19,11 +19,11 @@ namespace RegexImplementation
                 }
                 Console.WriteLine("Valide one");
 
-          
+
+           
                 Console.WriteLine("Enter your Email-Id");
 
                 string emailId = Console.ReadLine();
-
 
                 while (!(validateEmailId(emailId)))
                 {
@@ -53,8 +53,8 @@ namespace RegexImplementation
         {
 
 
-          
-            string pattern = "(^[a-zA-Z0-9]{1,}[a-zA-Z0-9+-_.]{0,}@[a-zA-Z0-9]{1,}.[a-zA-Z]{2,}$)";
+           
+            string pattern = "(^[a-zA-Z0-9]{1,}([+-_.][a-zA-Z0-9]{1,}){0,}@[a-zA-Z0-9]{1,}(\\.[a-zA-Z]{1,}){0,1}(\\.[a-zA-Z]{2,})$)";
 
             Regex re = new Regex(pattern);
             if (re.IsMatch(emailId))
