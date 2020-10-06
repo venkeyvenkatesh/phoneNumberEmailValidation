@@ -23,7 +23,7 @@ namespace RegexImplementation
         }
         public static bool validatePinCode(string pinCode)
         {
-            string pattern = @"(^[0-9]{1}[a-zA-Z0-9!@#$%^&*()-+=]{5}$)";
+            string pattern = @"(^[1-9]{1}[0-9]{5}$)";
             Regex re = new Regex(pattern);
             if (re.IsMatch(pinCode))
             {
